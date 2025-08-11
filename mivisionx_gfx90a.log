@@ -1,0 +1,76 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Starting pkgProblemResolver with broken count: 0
+Starting 2 pkgProblemResolver with broken count: 0
+Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Test project /home/tests/mivisionx/obj-x86_64-linux-gnu/tests
+      Start  1: vx_core_test
+ 1/12 Test  #1: vx_core_test .......................   Passed    0.34 sec
+      Start  2: vx_amd_media_test
+ 2/12 Test  #2: vx_amd_media_test ..................   Passed    0.48 sec
+      Start  3: vx_opencv_test
+ 3/12 Test  #3: vx_opencv_test .....................   Passed    0.35 sec
+      Start  4: vx_rpp_test
+ 4/12 Test  #4: vx_rpp_test ........................   Passed    0.36 sec
+      Start  5: runvx_test
+ 5/12 Test  #5: runvx_test .........................   Passed    0.36 sec
+      Start  6: openvx_canny
+ 6/12 Test  #6: openvx_canny .......................   Passed    0.73 sec
+      Start  7: openvx_channel_extract
+ 7/12 Test  #7: openvx_channel_extract .............   Passed    0.73 sec
+      Start  8: openvx_color_convert
+ 8/12 Test  #8: openvx_color_convert ...............   Passed    0.76 sec
+      Start  9: openvx_canny_CPU
+ 9/12 Test  #9: openvx_canny_CPU ...................   Passed    0.12 sec
+      Start 10: openvx_channel_extract_CPU
+10/12 Test #10: openvx_channel_extract_CPU .........   Passed    0.12 sec
+      Start 11: openvx_color_convert_CPU
+11/12 Test #11: openvx_color_convert_CPU ...........   Passed    0.12 sec
+      Start 12: openvx_tests_runVisionPython_CPU
+12/12 Test #12: openvx_tests_runVisionPython_CPU ...   Passed   41.07 sec
+
+100% tests passed, 0 tests failed out of 12
+
+Total Test time (real) =  45.54 sec
+mivisionx-cpu-tests  PASS
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Starting pkgProblemResolver with broken count: 0
+Starting 2 pkgProblemResolver with broken count: 0
+Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Test project /home/tests/mivisionx/obj-x86_64-linux-gnu/tests
+      Start  1: vx_core_test
+ 1/13 Test  #1: vx_core_test .......................   Passed    0.64 sec
+      Start  2: vx_amd_media_test
+ 2/13 Test  #2: vx_amd_media_test ..................   Passed    0.48 sec
+      Start  3: vx_nn_test
+ 3/13 Test  #3: vx_nn_test .........................   Passed    0.65 sec
+      Start  4: vx_opencv_test
+ 4/13 Test  #4: vx_opencv_test .....................   Passed    0.35 sec
+      Start  5: vx_rpp_test
+ 5/13 Test  #5: vx_rpp_test ........................   Passed    0.36 sec
+      Start  6: runvx_test
+ 6/13 Test  #6: runvx_test .........................   Passed    0.64 sec
+      Start  7: openvx_canny
+ 7/13 Test  #7: openvx_canny .......................   Passed    0.97 sec
+      Start  8: openvx_channel_extract
+ 8/13 Test  #8: openvx_channel_extract .............   Passed    0.96 sec
+      Start  9: openvx_color_convert
+ 9/13 Test  #9: openvx_color_convert ...............   Passed    0.97 sec
+      Start 10: openvx_canny_CPU
+10/13 Test #10: openvx_canny_CPU ...................   Passed    0.12 sec
+      Start 11: openvx_channel_extract_CPU
+11/13 Test #11: openvx_channel_extract_CPU .........   Passed    0.12 sec
+      Start 12: openvx_color_convert_CPU
+12/13 Test #12: openvx_color_convert_CPU ...........   Passed    0.11 sec
+      Start 13: openvx_tests_runVisionPython_CPU
+13/13 Test #13: openvx_tests_runVisionPython_CPU ...   Passed   41.14 sec
+
+100% tests passed, 0 tests failed out of 13
+
+Total Test time (real) =  47.53 sec
+mivisionx-gpu-tests  PASS
