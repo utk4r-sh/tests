@@ -1,0 +1,599 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Starting pkgProblemResolver with broken count: 0
+Starting 2 pkgProblemResolver with broken count: 0
+Done
+0 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+Test project /home/migraphx/obj-x86_64-linux-gnu
+        Start 288: test_verify_general
+  1/293 Test #288: test_verify_general ..............................................   Passed    1.81 sec
+        Start 289: test_verify_reduce
+  2/293 Test #289: test_verify_reduce ...............................................   Passed    0.23 sec
+        Start 290: test_verify_rnn
+  3/293 Test #290: test_verify_rnn ..................................................   Passed    0.09 sec
+        Start 291: test_verify_conv
+  4/293 Test #291: test_verify_conv .................................................   Passed    0.16 sec
+        Start 292: test_verify_gemm
+  5/293 Test #292: test_verify_gemm .................................................   Passed    0.71 sec
+        Start   1: test_algorithm
+  6/293 Test   #1: test_algorithm ...................................................   Passed    0.04 sec
+        Start   2: test_analyze_streams
+  7/293 Test   #2: test_analyze_streams .............................................   Passed    0.03 sec
+        Start   3: test_any_ptr
+  8/293 Test   #3: test_any_ptr .....................................................   Passed    0.03 sec
+        Start   4: test_argument_test
+  9/293 Test   #4: test_argument_test ...............................................   Passed    0.03 sec
+        Start   5: test_auto_contiguous_test
+ 10/293 Test   #5: test_auto_contiguous_test ........................................   Passed    0.03 sec
+        Start   6: test_autocast_fp8
+ 11/293 Test   #6: test_autocast_fp8 ................................................   Passed    0.03 sec
+        Start   7: test_base64_test
+ 12/293 Test   #7: test_base64_test .................................................   Passed    0.03 sec
+        Start   8: test_bf16
+ 13/293 Test   #8: test_bf16 ........................................................   Passed    0.03 sec
+        Start   9: test_bit_signal
+ 14/293 Test   #9: test_bit_signal ..................................................   Passed    0.04 sec
+        Start  10: test_check_shapes_test
+ 15/293 Test  #10: test_check_shapes_test ...........................................   Passed    0.03 sec
+        Start  11: test_common_dims
+ 16/293 Test  #11: test_common_dims .................................................   Passed    0.03 sec
+        Start  12: test_const_eval_test
+ 17/293 Test  #12: test_const_eval_test .............................................   Passed    0.03 sec
+        Start  13: test_convert_to_json
+ 18/293 Test  #13: test_convert_to_json .............................................   Passed    0.02 sec
+        Start  14: test_dead_code_elimination_test
+ 19/293 Test  #14: test_dead_code_elimination_test ..................................   Passed    0.03 sec
+        Start  15: test_dom
+ 20/293 Test  #15: test_dom .........................................................   Passed    0.02 sec
+        Start  16: test_dot_apply_alpha_beta_test
+ 21/293 Test  #16: test_dot_apply_alpha_beta_test ...................................   Passed    0.03 sec
+        Start  17: test_eliminate_allocation_test
+ 22/293 Test  #17: test_eliminate_allocation_test ...................................   Passed    0.03 sec
+        Start  18: test_eliminate_common_subexpression_test
+ 23/293 Test  #18: test_eliminate_common_subexpression_test .........................   Passed    0.03 sec
+        Start  19: test_eliminate_concat_test
+ 24/293 Test  #19: test_eliminate_concat_test .......................................   Passed    0.03 sec
+        Start  20: test_eliminate_contiguous_test
+ 25/293 Test  #20: test_eliminate_contiguous_test ...................................   Passed    0.03 sec
+        Start  21: test_eliminate_convert_test
+ 26/293 Test  #21: test_eliminate_convert_test ......................................   Passed    0.03 sec
+        Start  22: test_eliminate_data_type_test
+ 27/293 Test  #22: test_eliminate_data_type_test ....................................   Passed    0.02 sec
+        Start  23: test_eliminate_identity_test
+ 28/293 Test  #23: test_eliminate_identity_test .....................................   Passed    0.03 sec
+        Start  24: test_eliminate_pad_test
+ 29/293 Test  #24: test_eliminate_pad_test ..........................................   Passed    0.02 sec
+        Start  25: test_eliminate_zero_point_test
+ 30/293 Test  #25: test_eliminate_zero_point_test ...................................   Passed    0.13 sec
+        Start  26: test_eval_test
+ 31/293 Test  #26: test_eval_test ...................................................   Passed    0.03 sec
+        Start  27: test_fileutils
+ 32/293 Test  #27: test_fileutils ...................................................   Passed    0.03 sec
+        Start  28: test_float32
+ 33/293 Test  #28: test_float32 .....................................................   Passed    0.02 sec
+        Start  29: test_float_equal
+ 34/293 Test  #29: test_float_equal .................................................   Passed    0.03 sec
+        Start  30: test_fp8_ocp_to_fnuz_test
+ 35/293 Test  #30: test_fp8_ocp_to_fnuz_test ........................................   Passed    0.03 sec
+        Start  31: test_fp8e4m3fn
+ 36/293 Test  #31: test_fp8e4m3fn ...................................................   Passed    0.03 sec
+        Start  32: test_fp8e4m3fnuz
+ 37/293 Test  #32: test_fp8e4m3fnuz .................................................   Passed    0.03 sec
+        Start  33: test_fp8e5m2
+ 38/293 Test  #33: test_fp8e5m2 .....................................................   Passed    0.03 sec
+        Start  34: test_fp8e5m2fnuz
+ 39/293 Test  #34: test_fp8e5m2fnuz .................................................   Passed    0.02 sec
+        Start  35: test_fuse_concat
+ 40/293 Test  #35: test_fuse_concat .................................................   Passed    0.03 sec
+        Start  36: test_fuse_pointwise
+ 41/293 Test  #36: test_fuse_pointwise ..............................................   Passed    0.04 sec
+        Start  37: test_fuse_reduce
+ 42/293 Test  #37: test_fuse_reduce .................................................   Passed    0.10 sec
+        Start  38: test_generate
+ 43/293 Test  #38: test_generate ....................................................   Passed    0.03 sec
+        Start  39: test_half
+ 44/293 Test  #39: test_half ........................................................   Passed    0.03 sec
+        Start  40: test_inline_module_test
+ 45/293 Test  #40: test_inline_module_test ..........................................   Passed    0.03 sec
+        Start  41: test_insert_pad_test
+ 46/293 Test  #41: test_insert_pad_test .............................................   Passed    0.03 sec
+        Start  42: test_instruction
+ 47/293 Test  #42: test_instruction .................................................   Passed    0.03 sec
+        Start  43: test_int4_test
+ 48/293 Test  #43: test_int4_test ...................................................   Passed    0.05 sec
+        Start  44: test_jit
+ 49/293 Test  #44: test_jit .........................................................   Passed    0.24 sec
+        Start  45: test_json_test
+ 50/293 Test  #45: test_json_test ...................................................   Passed    0.04 sec
+        Start  46: test_layout_convolution
+ 51/293 Test  #46: test_layout_convolution ..........................................   Passed    0.06 sec
+        Start  47: test_literal_test
+ 52/293 Test  #47: test_literal_test ................................................   Passed    0.04 sec
+        Start  48: test_main
+ 53/293 Test  #48: test_main ........................................................   Passed    0.03 sec
+        Start  49: test_marker
+ 54/293 Test  #49: test_marker ......................................................   Passed    0.03 sec
+        Start  50: test_matcher
+ 55/293 Test  #50: test_matcher .....................................................   Passed    0.04 sec
+        Start  51: test_memory_coloring_test
+ 56/293 Test  #51: test_memory_coloring_test ........................................   Passed    0.09 sec
+        Start  52: test_module_test
+ 57/293 Test  #52: test_module_test .................................................   Passed    0.03 sec
+        Start  53: test_msgpack
+ 58/293 Test  #53: test_msgpack .....................................................   Passed   17.59 sec
+        Start  54: test_normalize_ops_test
+ 59/293 Test  #54: test_normalize_ops_test ..........................................   Passed    0.03 sec
+        Start  55: test_op_shape_test
+ 60/293 Test  #55: test_op_shape_test ...............................................   Passed    0.04 sec
+        Start  56: test_operation
+ 61/293 Test  #56: test_operation ...................................................   Passed    0.03 sec
+        Start  57: test_operators
+ 62/293 Test  #57: test_operators ...................................................   Passed    0.03 sec
+        Start  58: test_optimize_module_test
+ 63/293 Test  #58: test_optimize_module_test ........................................   Passed    0.12 sec
+        Start  59: test_output_alias
+ 64/293 Test  #59: test_output_alias ................................................   Passed    0.04 sec
+        Start  60: test_pad_calc_test
+ 65/293 Test  #60: test_pad_calc_test ...............................................   Passed    0.03 sec
+        Start  61: test_param_utils
+ 66/293 Test  #61: test_param_utils .................................................   Passed    0.03 sec
+        Start  62: test_perf_report
+ 67/293 Test  #62: test_perf_report .................................................   Passed    0.04 sec
+        Start  63: test_print_graph_test
+ 68/293 Test  #63: test_print_graph_test ............................................   Passed    0.03 sec
+        Start  64: test_process_test
+ 69/293 Test  #64: test_process_test ................................................   Passed    0.15 sec
+        Start  65: test_program_test
+ 70/293 Test  #65: test_program_test ................................................   Passed    0.04 sec
+        Start  66: test_promote_literals_test
+ 71/293 Test  #66: test_promote_literals_test .......................................   Passed    0.03 sec
+        Start  67: test_propagate_constant_test
+ 72/293 Test  #67: test_propagate_constant_test .....................................   Passed    0.04 sec
+        Start  68: test_quantization
+ 73/293 Test  #68: test_quantization ................................................   Passed    0.19 sec
+        Start  69: test_reduce_dims
+ 74/293 Test  #69: test_reduce_dims .................................................   Passed    0.17 sec
+        Start  70: test_ref_dev_examples
+ 75/293 Test  #70: test_ref_dev_examples ............................................   Passed    0.05 sec
+        Start  71: test_replace_allocate
+ 76/293 Test  #71: test_replace_allocate ............................................   Passed    0.03 sec
+        Start  72: test_rewrite_gelu_test
+ 77/293 Test  #72: test_rewrite_gelu_test ...........................................   Passed    0.21 sec
+        Start  73: test_rewrite_low_precision_test
+ 78/293 Test  #73: test_rewrite_low_precision_test ..................................   Passed    0.04 sec
+        Start  74: test_rewrite_pooling_test
+ 79/293 Test  #74: test_rewrite_pooling_test ........................................   Passed    0.04 sec
+        Start  75: test_rewrite_quantization_test
+ 80/293 Test  #75: test_rewrite_quantization_test ...................................   Passed    0.03 sec
+        Start  76: test_rewrite_reduce
+ 81/293 Test  #76: test_rewrite_reduce ..............................................   Passed    0.03 sec
+        Start  77: test_run_loop_test
+ 82/293 Test  #77: test_run_loop_test ...............................................   Passed    0.04 sec
+        Start  78: test_run_on_target_test
+ 83/293 Test  #78: test_run_on_target_test ..........................................   Passed    0.03 sec
+        Start  79: test_schedule_test
+ 84/293 Test  #79: test_schedule_test ...............................................   Passed    0.03 sec
+        Start  80: test_serialize_program
+ 85/293 Test  #80: test_serialize_program ...........................................   Passed    0.03 sec
+        Start  81: test_serialize_test
+ 86/293 Test  #81: test_serialize_test ..............................................   Passed    0.03 sec
+        Start  82: test_shape_test
+ 87/293 Test  #82: test_shape_test ..................................................   Passed    0.03 sec
+        Start  83: test_shape_transform_descriptor
+ 88/293 Test  #83: test_shape_transform_descriptor ..................................   Passed    0.22 sec
+        Start  84: test_simplify_algebra_test
+ 89/293 Test  #84: test_simplify_algebra_test .......................................   Passed    1.71 sec
+        Start  85: test_simplify_dyn_ops_test
+ 90/293 Test  #85: test_simplify_dyn_ops_test .......................................   Passed    0.05 sec
+        Start  86: test_simplify_qdq_test
+ 91/293 Test  #86: test_simplify_qdq_test ...........................................   Passed    0.47 sec
+        Start  87: test_simplify_reshapes_test
+ 92/293 Test  #87: test_simplify_reshapes_test ......................................   Passed    0.13 sec
+        Start  88: test_split_reduce
+ 93/293 Test  #88: test_split_reduce ................................................   Passed    0.06 sec
+        Start  89: test_split_single_dyn_dim_test
+ 94/293 Test  #89: test_split_single_dyn_dim_test ...................................   Passed    0.04 sec
+        Start  90: test_sqlite
+ 95/293 Test  #90: test_sqlite ......................................................   Passed    0.07 sec
+        Start  91: test_stringutils
+ 96/293 Test  #91: test_stringutils .................................................   Passed    0.03 sec
+        Start  92: test_targets
+ 97/293 Test  #92: test_targets .....................................................   Passed    0.04 sec
+        Start  93: test_test
+ 98/293 Test  #93: test_test ........................................................   Passed    0.02 sec
+        Start  94: test_type_name
+ 99/293 Test  #94: test_type_name ...................................................   Passed    0.03 sec
+        Start  95: test_validate
+100/293 Test  #95: test_validate ....................................................   Passed    0.02 sec
+        Start  96: test_value_test
+101/293 Test  #96: test_value_test ..................................................   Passed    0.04 sec
+        Start  97: header_src_include_migraphx_adjust_allocation_hpp
+102/293 Test  #97: header_src_include_migraphx_adjust_allocation_hpp ................   Passed    0.03 sec
+        Start  98: header_src_include_migraphx_algorithm_hpp
+103/293 Test  #98: header_src_include_migraphx_algorithm_hpp ........................   Passed    0.02 sec
+        Start  99: header_src_include_migraphx_allocation_model_hpp
+104/293 Test  #99: header_src_include_migraphx_allocation_model_hpp .................   Passed    0.02 sec
+        Start 100: header_src_include_migraphx_analyze_streams_hpp
+105/293 Test #100: header_src_include_migraphx_analyze_streams_hpp ..................   Passed    0.03 sec
+        Start 101: header_src_include_migraphx_any_ptr_hpp
+106/293 Test #101: header_src_include_migraphx_any_ptr_hpp ..........................   Passed    0.02 sec
+        Start 102: header_src_include_migraphx_apply_alpha_beta_hpp
+107/293 Test #102: header_src_include_migraphx_apply_alpha_beta_hpp .................   Passed    0.03 sec
+        Start 103: header_src_include_migraphx_argument_hpp
+108/293 Test #103: header_src_include_migraphx_argument_hpp .........................   Passed    0.02 sec
+        Start 104: header_src_include_migraphx_array_hpp
+109/293 Test #104: header_src_include_migraphx_array_hpp ............................   Passed    0.02 sec
+        Start 105: header_src_include_migraphx_as_number_hpp
+110/293 Test #105: header_src_include_migraphx_as_number_hpp ........................   Passed    0.03 sec
+        Start 106: header_src_include_migraphx_assert_hpp
+111/293 Test #106: header_src_include_migraphx_assert_hpp ...........................   Passed    0.03 sec
+        Start 107: header_src_include_migraphx_assignment_options_hpp
+112/293 Test #107: header_src_include_migraphx_assignment_options_hpp ...............   Passed    0.02 sec
+        Start 108: header_src_include_migraphx_auto_any_cast_hpp
+113/293 Test #108: header_src_include_migraphx_auto_any_cast_hpp ....................   Passed    0.03 sec
+        Start 109: header_src_include_migraphx_auto_contiguous_hpp
+114/293 Test #109: header_src_include_migraphx_auto_contiguous_hpp ..................   Passed    0.02 sec
+        Start 110: header_src_include_migraphx_auto_register_hpp
+115/293 Test #110: header_src_include_migraphx_auto_register_hpp ....................   Passed    0.03 sec
+        Start 111: header_src_include_migraphx_autocast_fp8_hpp
+116/293 Test #111: header_src_include_migraphx_autocast_fp8_hpp .....................   Passed    0.03 sec
+        Start 112: header_src_include_migraphx_base64_hpp
+117/293 Test #112: header_src_include_migraphx_base64_hpp ...........................   Passed    0.03 sec
+        Start 113: header_src_include_migraphx_bf16_hpp
+118/293 Test #113: header_src_include_migraphx_bf16_hpp .............................   Passed    0.02 sec
+        Start 114: header_src_include_migraphx_bit_cast_hpp
+119/293 Test #114: header_src_include_migraphx_bit_cast_hpp .........................   Passed    0.02 sec
+        Start 115: header_src_include_migraphx_bit_signal_hpp
+120/293 Test #115: header_src_include_migraphx_bit_signal_hpp .......................   Passed    0.03 sec
+        Start 116: header_src_include_migraphx_builtin_hpp
+121/293 Test #116: header_src_include_migraphx_builtin_hpp ..........................   Passed    0.03 sec
+        Start 117: header_src_include_migraphx_check_context_hpp
+122/293 Test #117: header_src_include_migraphx_check_context_hpp ....................   Passed    0.02 sec
+        Start 118: header_src_include_migraphx_check_shapes_hpp
+123/293 Test #118: header_src_include_migraphx_check_shapes_hpp .....................   Passed    0.03 sec
+        Start 119: header_src_include_migraphx_clamp_hpp
+124/293 Test #119: header_src_include_migraphx_clamp_hpp ............................   Passed    0.03 sec
+        Start 120: header_src_include_migraphx_cloneable_hpp
+125/293 Test #120: header_src_include_migraphx_cloneable_hpp ........................   Passed    0.02 sec
+        Start 121: header_src_include_migraphx_common_hpp
+126/293 Test #121: header_src_include_migraphx_common_hpp ...........................   Passed    0.02 sec
+        Start 122: header_src_include_migraphx_common_dims_hpp
+127/293 Test #122: header_src_include_migraphx_common_dims_hpp ......................   Passed    0.03 sec
+        Start 123: header_src_include_migraphx_compile_options_hpp
+128/293 Test #123: header_src_include_migraphx_compile_options_hpp ..................   Passed    0.02 sec
+        Start 124: header_src_include_migraphx_compile_src_hpp
+129/293 Test #124: header_src_include_migraphx_compile_src_hpp ......................   Passed    0.03 sec
+        Start 125: header_src_include_migraphx_concat_opt_hpp
+130/293 Test #125: header_src_include_migraphx_concat_opt_hpp .......................   Passed    0.03 sec
+        Start 126: header_src_include_migraphx_config_hpp
+131/293 Test #126: header_src_include_migraphx_config_hpp ...........................   Passed    0.02 sec
+        Start 127: header_src_include_migraphx_context_hpp
+132/293 Test #127: header_src_include_migraphx_context_hpp ..........................   Passed    0.03 sec
+        Start 128: header_src_include_migraphx_convert_to_json_hpp
+133/293 Test #128: header_src_include_migraphx_convert_to_json_hpp ..................   Passed    0.03 sec
+        Start 129: header_src_include_migraphx_convolution_hpp
+134/293 Test #129: header_src_include_migraphx_convolution_hpp ......................   Passed    0.03 sec
+        Start 130: header_src_include_migraphx_copy_assignable_function_hpp
+135/293 Test #130: header_src_include_migraphx_copy_assignable_function_hpp .........   Passed    0.02 sec
+        Start 131: header_src_include_migraphx_cpp_generator_hpp
+136/293 Test #131: header_src_include_migraphx_cpp_generator_hpp ....................   Passed    0.02 sec
+        Start 132: header_src_include_migraphx_dead_code_elimination_hpp
+137/293 Test #132: header_src_include_migraphx_dead_code_elimination_hpp ............   Passed    0.02 sec
+        Start 133: header_src_include_migraphx_dfor_hpp
+138/293 Test #133: header_src_include_migraphx_dfor_hpp .............................   Passed    0.03 sec
+        Start 134: header_src_include_migraphx_dom_info_hpp
+139/293 Test #134: header_src_include_migraphx_dom_info_hpp .........................   Passed    0.03 sec
+        Start 135: header_src_include_migraphx_dyn_output_hpp
+140/293 Test #135: header_src_include_migraphx_dyn_output_hpp .......................   Passed    0.02 sec
+        Start 136: header_src_include_migraphx_dynamic_loader_hpp
+141/293 Test #136: header_src_include_migraphx_dynamic_loader_hpp ...................   Passed    0.03 sec
+        Start 137: header_src_include_migraphx_eliminate_allocation_hpp
+142/293 Test #137: header_src_include_migraphx_eliminate_allocation_hpp .............   Passed    0.02 sec
+        Start 138: header_src_include_migraphx_eliminate_common_subexpression_hpp
+143/293 Test #138: header_src_include_migraphx_eliminate_common_subexpression_hpp ...   Passed    0.02 sec
+        Start 139: header_src_include_migraphx_eliminate_concat_hpp
+144/293 Test #139: header_src_include_migraphx_eliminate_concat_hpp .................   Passed    0.02 sec
+        Start 140: header_src_include_migraphx_eliminate_contiguous_hpp
+145/293 Test #140: header_src_include_migraphx_eliminate_contiguous_hpp .............   Passed    0.02 sec
+        Start 141: header_src_include_migraphx_eliminate_convert_hpp
+146/293 Test #141: header_src_include_migraphx_eliminate_convert_hpp ................   Passed    0.02 sec
+        Start 142: header_src_include_migraphx_eliminate_data_type_hpp
+147/293 Test #142: header_src_include_migraphx_eliminate_data_type_hpp ..............   Passed    0.03 sec
+        Start 143: header_src_include_migraphx_eliminate_identity_hpp
+148/293 Test #143: header_src_include_migraphx_eliminate_identity_hpp ...............   Passed    0.03 sec
+        Start 144: header_src_include_migraphx_eliminate_pad_hpp
+149/293 Test #144: header_src_include_migraphx_eliminate_pad_hpp ....................   Passed    0.02 sec
+        Start 145: header_src_include_migraphx_env_hpp
+150/293 Test #145: header_src_include_migraphx_env_hpp ..............................   Passed    0.03 sec
+        Start 146: header_src_include_migraphx_erase_hpp
+151/293 Test #146: header_src_include_migraphx_erase_hpp ............................   Passed    0.02 sec
+        Start 147: header_src_include_migraphx_errors_hpp
+152/293 Test #147: header_src_include_migraphx_errors_hpp ...........................   Passed    0.02 sec
+        Start 148: header_src_include_migraphx_execution_environment_hpp
+153/293 Test #148: header_src_include_migraphx_execution_environment_hpp ............   Passed    0.03 sec
+        Start 149: header_src_include_migraphx_fallthrough_hpp
+154/293 Test #149: header_src_include_migraphx_fallthrough_hpp ......................   Passed    0.02 sec
+        Start 150: header_src_include_migraphx_file_buffer_hpp
+155/293 Test #150: header_src_include_migraphx_file_buffer_hpp ......................   Passed    0.03 sec
+        Start 151: header_src_include_migraphx_filesystem_hpp
+156/293 Test #151: header_src_include_migraphx_filesystem_hpp .......................   Passed    0.03 sec
+        Start 152: header_src_include_migraphx_fileutils_hpp
+157/293 Test #152: header_src_include_migraphx_fileutils_hpp ........................   Passed    0.02 sec
+        Start 153: header_src_include_migraphx_float8_hpp
+158/293 Test #153: header_src_include_migraphx_float8_hpp ...........................   Passed    0.03 sec
+        Start 154: header_src_include_migraphx_float_equal_hpp
+159/293 Test #154: header_src_include_migraphx_float_equal_hpp ......................   Passed    0.02 sec
+        Start 155: header_src_include_migraphx_fp8_ocp_to_fnuz_hpp
+160/293 Test #155: header_src_include_migraphx_fp8_ocp_to_fnuz_hpp ..................   Passed    0.02 sec
+        Start 156: header_src_include_migraphx_fp8_types_hpp
+161/293 Test #156: header_src_include_migraphx_fp8_types_hpp ........................   Passed    0.03 sec
+        Start 157: header_src_include_migraphx_fp_to_double_hpp
+162/293 Test #157: header_src_include_migraphx_fp_to_double_hpp .....................   Passed    0.02 sec
+        Start 158: header_src_include_migraphx_functional_hpp
+163/293 Test #158: header_src_include_migraphx_functional_hpp .......................   Passed    0.02 sec
+        Start 159: header_src_include_migraphx_fuse_concat_hpp
+164/293 Test #159: header_src_include_migraphx_fuse_concat_hpp ......................   Passed    0.02 sec
+        Start 160: header_src_include_migraphx_fuse_pointwise_hpp
+165/293 Test #160: header_src_include_migraphx_fuse_pointwise_hpp ...................   Passed    0.03 sec
+        Start 161: header_src_include_migraphx_fuse_pointwise_reduce_hpp
+166/293 Test #161: header_src_include_migraphx_fuse_pointwise_reduce_hpp ............   Passed    0.02 sec
+        Start 162: header_src_include_migraphx_fuse_reduce_hpp
+167/293 Test #162: header_src_include_migraphx_fuse_reduce_hpp ......................   Passed    0.02 sec
+        Start 163: header_src_include_migraphx_gemm_hpp
+168/293 Test #163: header_src_include_migraphx_gemm_hpp .............................   Passed    0.03 sec
+        Start 164: header_src_include_migraphx_generate_hpp
+169/293 Test #164: header_src_include_migraphx_generate_hpp .........................   Passed    0.02 sec
+        Start 165: header_src_include_migraphx_generic_float_hpp
+170/293 Test #165: header_src_include_migraphx_generic_float_hpp ....................   Passed    0.02 sec
+        Start 166: header_src_include_migraphx_half_hpp
+171/293 Test #166: header_src_include_migraphx_half_hpp .............................   Passed    0.02 sec
+        Start 167: header_src_include_migraphx_hash_hpp
+172/293 Test #167: header_src_include_migraphx_hash_hpp .............................   Passed    0.03 sec
+        Start 168: header_src_include_migraphx_inline_module_hpp
+173/293 Test #168: header_src_include_migraphx_inline_module_hpp ....................   Passed    0.02 sec
+        Start 169: header_src_include_migraphx_insert_pad_hpp
+174/293 Test #169: header_src_include_migraphx_insert_pad_hpp .......................   Passed    0.02 sec
+        Start 170: header_src_include_migraphx_instruction_hpp
+175/293 Test #170: header_src_include_migraphx_instruction_hpp ......................   Passed    0.02 sec
+        Start 171: header_src_include_migraphx_instruction_ref_hpp
+176/293 Test #171: header_src_include_migraphx_instruction_ref_hpp ..................   Passed    0.03 sec
+        Start 172: header_src_include_migraphx_iota_iterator_hpp
+177/293 Test #172: header_src_include_migraphx_iota_iterator_hpp ....................   Passed    0.03 sec
+        Start 173: header_src_include_migraphx_iterator_hpp
+178/293 Test #173: header_src_include_migraphx_iterator_hpp .........................   Passed    0.03 sec
+        Start 174: header_src_include_migraphx_iterator_for_hpp
+179/293 Test #174: header_src_include_migraphx_iterator_for_hpp .....................   Passed    0.02 sec
+        Start 175: header_src_include_migraphx_json_hpp
+180/293 Test #175: header_src_include_migraphx_json_hpp .............................   Passed    0.03 sec
+        Start 176: header_src_include_migraphx_layout_convolution_hpp
+181/293 Test #176: header_src_include_migraphx_layout_convolution_hpp ...............   Passed    0.03 sec
+        Start 177: header_src_include_migraphx_lexing_hpp
+182/293 Test #177: header_src_include_migraphx_lexing_hpp ...........................   Passed    0.02 sec
+        Start 178: header_src_include_migraphx_lifetime_hpp
+183/293 Test #178: header_src_include_migraphx_lifetime_hpp .........................   Passed    0.03 sec
+        Start 179: header_src_include_migraphx_literal_hpp
+184/293 Test #179: header_src_include_migraphx_literal_hpp ..........................   Passed    0.02 sec
+        Start 180: header_src_include_migraphx_liveness_hpp
+185/293 Test #180: header_src_include_migraphx_liveness_hpp .........................   Passed    0.03 sec
+        Start 181: header_src_include_migraphx_load_save_hpp
+186/293 Test #181: header_src_include_migraphx_load_save_hpp ........................   Passed    0.03 sec
+        Start 182: header_src_include_migraphx_make_op_hpp
+187/293 Test #182: header_src_include_migraphx_make_op_hpp ..........................   Passed    0.02 sec
+        Start 183: header_src_include_migraphx_make_shared_array_hpp
+188/293 Test #183: header_src_include_migraphx_make_shared_array_hpp ................   Passed    0.02 sec
+        Start 184: header_src_include_migraphx_make_signed_hpp
+189/293 Test #184: header_src_include_migraphx_make_signed_hpp ......................   Passed    0.02 sec
+        Start 185: header_src_include_migraphx_manage_ptr_hpp
+190/293 Test #185: header_src_include_migraphx_manage_ptr_hpp .......................   Passed    0.02 sec
+        Start 186: header_src_include_migraphx_marker_hpp
+191/293 Test #186: header_src_include_migraphx_marker_hpp ...........................   Passed    0.03 sec
+        Start 187: header_src_include_migraphx_matcher_hpp
+192/293 Test #187: header_src_include_migraphx_matcher_hpp ..........................   Passed    0.02 sec
+        Start 188: header_src_include_migraphx_memory_coloring_hpp
+193/293 Test #188: header_src_include_migraphx_memory_coloring_hpp ..................   Passed    0.03 sec
+        Start 189: header_src_include_migraphx_module_hpp
+194/293 Test #189: header_src_include_migraphx_module_hpp ...........................   Passed    0.02 sec
+        Start 190: header_src_include_migraphx_module_ref_hpp
+195/293 Test #190: header_src_include_migraphx_module_ref_hpp .......................   Passed    0.02 sec
+        Start 191: header_src_include_migraphx_msgpack_hpp
+196/293 Test #191: header_src_include_migraphx_msgpack_hpp ..........................   Passed    0.03 sec
+        Start 192: header_src_include_migraphx_netron_output_hpp
+197/293 Test #192: header_src_include_migraphx_netron_output_hpp ....................   Passed    0.02 sec
+        Start 193: header_src_include_migraphx_normalize_attributes_hpp
+198/293 Test #193: header_src_include_migraphx_normalize_attributes_hpp .............   Passed    0.02 sec
+        Start 194: header_src_include_migraphx_normalize_ops_hpp
+199/293 Test #194: header_src_include_migraphx_normalize_ops_hpp ....................   Passed    0.02 sec
+        Start 195: header_src_include_migraphx_onnx_hpp
+200/293 Test #195: header_src_include_migraphx_onnx_hpp .............................   Passed    0.03 sec
+        Start 196: header_src_include_migraphx_operation_hpp
+201/293 Test #196: header_src_include_migraphx_operation_hpp ........................   Passed    0.03 sec
+        Start 197: header_src_include_migraphx_operators_hpp
+202/293 Test #197: header_src_include_migraphx_operators_hpp ........................   Passed    0.02 sec
+        Start 198: header_src_include_migraphx_optimize_module_hpp
+203/293 Test #198: header_src_include_migraphx_optimize_module_hpp ..................   Passed    0.02 sec
+        Start 199: header_src_include_migraphx_optional_hpp
+204/293 Test #199: header_src_include_migraphx_optional_hpp .........................   Passed    0.02 sec
+        Start 200: header_src_include_migraphx_output_iterator_hpp
+205/293 Test #200: header_src_include_migraphx_output_iterator_hpp ..................   Passed    0.03 sec
+        Start 201: header_src_include_migraphx_pad_calc_hpp
+206/293 Test #201: header_src_include_migraphx_pad_calc_hpp .........................   Passed    0.02 sec
+        Start 202: header_src_include_migraphx_par_hpp
+207/293 Test #202: header_src_include_migraphx_par_hpp ..............................   Passed    0.02 sec
+        Start 203: header_src_include_migraphx_par_dfor_hpp
+208/293 Test #203: header_src_include_migraphx_par_dfor_hpp .........................   Passed    0.02 sec
+        Start 204: header_src_include_migraphx_par_for_hpp
+209/293 Test #204: header_src_include_migraphx_par_for_hpp ..........................   Passed    0.02 sec
+        Start 205: header_src_include_migraphx_param_utils_hpp
+210/293 Test #205: header_src_include_migraphx_param_utils_hpp ......................   Passed    0.03 sec
+        Start 206: header_src_include_migraphx_pass_hpp
+211/293 Test #206: header_src_include_migraphx_pass_hpp .............................   Passed    0.03 sec
+        Start 207: header_src_include_migraphx_pass_manager_hpp
+212/293 Test #207: header_src_include_migraphx_pass_manager_hpp .....................   Passed    0.02 sec
+        Start 208: header_src_include_migraphx_permutation_hpp
+213/293 Test #208: header_src_include_migraphx_permutation_hpp ......................   Passed    0.02 sec
+        Start 209: header_src_include_migraphx_preallocate_param_hpp
+214/293 Test #209: header_src_include_migraphx_preallocate_param_hpp ................   Passed    0.03 sec
+        Start 210: header_src_include_migraphx_process_hpp
+215/293 Test #210: header_src_include_migraphx_process_hpp ..........................   Passed    0.02 sec
+        Start 211: header_src_include_migraphx_program_hpp
+216/293 Test #211: header_src_include_migraphx_program_hpp ..........................   Passed    0.02 sec
+        Start 212: header_src_include_migraphx_promote_literals_hpp
+217/293 Test #212: header_src_include_migraphx_promote_literals_hpp .................   Passed    0.03 sec
+        Start 213: header_src_include_migraphx_propagate_constant_hpp
+218/293 Test #213: header_src_include_migraphx_propagate_constant_hpp ...............   Passed    0.03 sec
+        Start 214: header_src_include_migraphx_quantization_hpp
+219/293 Test #214: header_src_include_migraphx_quantization_hpp .....................   Passed    0.02 sec
+        Start 215: header_src_include_migraphx_quantize_8bits_hpp
+220/293 Test #215: header_src_include_migraphx_quantize_8bits_hpp ...................   Passed    0.02 sec
+        Start 216: header_src_include_migraphx_quantize_int4_hpp
+221/293 Test #216: header_src_include_migraphx_quantize_int4_hpp ....................   Passed    0.03 sec
+        Start 217: header_src_include_migraphx_ranges_hpp
+222/293 Test #217: header_src_include_migraphx_ranges_hpp ...........................   Passed    0.02 sec
+        Start 218: header_src_include_migraphx_rank_hpp
+223/293 Test #218: header_src_include_migraphx_rank_hpp .............................   Passed    0.03 sec
+        Start 219: header_src_include_migraphx_raw_data_hpp
+224/293 Test #219: header_src_include_migraphx_raw_data_hpp .........................   Passed    0.02 sec
+        Start 220: header_src_include_migraphx_reduce_dims_hpp
+225/293 Test #220: header_src_include_migraphx_reduce_dims_hpp ......................   Passed    0.03 sec
+        Start 221: header_src_include_migraphx_reflect_hpp
+226/293 Test #221: header_src_include_migraphx_reflect_hpp ..........................   Passed    0.03 sec
+        Start 222: header_src_include_migraphx_register_op_hpp
+227/293 Test #222: header_src_include_migraphx_register_op_hpp ......................   Passed    0.02 sec
+        Start 223: header_src_include_migraphx_register_target_hpp
+228/293 Test #223: header_src_include_migraphx_register_target_hpp ..................   Passed    0.02 sec
+        Start 224: header_src_include_migraphx_replace_allocate_hpp
+229/293 Test #224: header_src_include_migraphx_replace_allocate_hpp .................   Passed    0.02 sec
+        Start 225: header_src_include_migraphx_requires_hpp
+230/293 Test #225: header_src_include_migraphx_requires_hpp .........................   Passed    0.03 sec
+        Start 226: header_src_include_migraphx_rewrite_gelu_hpp
+231/293 Test #226: header_src_include_migraphx_rewrite_gelu_hpp .....................   Passed    0.02 sec
+        Start 227: header_src_include_migraphx_rewrite_low_precision_hpp
+232/293 Test #227: header_src_include_migraphx_rewrite_low_precision_hpp ............   Passed    0.03 sec
+        Start 228: header_src_include_migraphx_rewrite_pooling_hpp
+233/293 Test #228: header_src_include_migraphx_rewrite_pooling_hpp ..................   Passed    0.02 sec
+        Start 229: header_src_include_migraphx_rewrite_quantization_hpp
+234/293 Test #229: header_src_include_migraphx_rewrite_quantization_hpp .............   Passed    0.02 sec
+        Start 230: header_src_include_migraphx_rewrite_reduce_hpp
+235/293 Test #230: header_src_include_migraphx_rewrite_reduce_hpp ...................   Passed    0.02 sec
+        Start 231: header_src_include_migraphx_rewrite_reshapes_hpp
+236/293 Test #231: header_src_include_migraphx_rewrite_reshapes_hpp .................   Passed    0.02 sec
+        Start 232: header_src_include_migraphx_rewrite_rnn_hpp
+237/293 Test #232: header_src_include_migraphx_rewrite_rnn_hpp ......................   Passed    0.03 sec
+        Start 233: header_src_include_migraphx_run_loop_hpp
+238/293 Test #233: header_src_include_migraphx_run_loop_hpp .........................   Passed    0.03 sec
+        Start 234: header_src_include_migraphx_sat_ops_hpp
+239/293 Test #234: header_src_include_migraphx_sat_ops_hpp ..........................   Passed    0.02 sec
+        Start 235: header_src_include_migraphx_schedule_hpp
+240/293 Test #235: header_src_include_migraphx_schedule_hpp .........................   Passed    0.02 sec
+        Start 236: header_src_include_migraphx_schedule_model_hpp
+241/293 Test #236: header_src_include_migraphx_schedule_model_hpp ...................   Passed    0.02 sec
+        Start 237: header_src_include_migraphx_serialize_hpp
+242/293 Test #237: header_src_include_migraphx_serialize_hpp ........................   Passed    0.02 sec
+        Start 238: header_src_include_migraphx_shape_hpp
+243/293 Test #238: header_src_include_migraphx_shape_hpp ............................   Passed    0.03 sec
+        Start 239: header_src_include_migraphx_shape_for_each_hpp
+244/293 Test #239: header_src_include_migraphx_shape_for_each_hpp ...................   Passed    0.03 sec
+        Start 240: header_src_include_migraphx_shape_transform_descriptor_hpp
+245/293 Test #240: header_src_include_migraphx_shape_transform_descriptor_hpp .......   Passed    0.02 sec
+        Start 241: header_src_include_migraphx_simple_par_for_hpp
+246/293 Test #241: header_src_include_migraphx_simple_par_for_hpp ...................   Passed    0.02 sec
+        Start 242: header_src_include_migraphx_simplify_algebra_hpp
+247/293 Test #242: header_src_include_migraphx_simplify_algebra_hpp .................   Passed    0.03 sec
+        Start 243: header_src_include_migraphx_simplify_dyn_ops_hpp
+248/293 Test #243: header_src_include_migraphx_simplify_dyn_ops_hpp .................   Passed    0.03 sec
+        Start 244: header_src_include_migraphx_simplify_qdq_hpp
+249/293 Test #244: header_src_include_migraphx_simplify_qdq_hpp .....................   Passed    0.03 sec
+        Start 245: header_src_include_migraphx_simplify_reshapes_hpp
+250/293 Test #245: header_src_include_migraphx_simplify_reshapes_hpp ................   Passed    0.03 sec
+        Start 246: header_src_include_migraphx_source_location_hpp
+251/293 Test #246: header_src_include_migraphx_source_location_hpp ..................   Passed    0.02 sec
+        Start 247: header_src_include_migraphx_split_reduce_hpp
+252/293 Test #247: header_src_include_migraphx_split_reduce_hpp .....................   Passed    0.03 sec
+        Start 248: header_src_include_migraphx_split_single_dyn_dim_hpp
+253/293 Test #248: header_src_include_migraphx_split_single_dyn_dim_hpp .............   Passed    0.02 sec
+        Start 249: header_src_include_migraphx_sqlite_hpp
+254/293 Test #249: header_src_include_migraphx_sqlite_hpp ...........................   Passed    0.02 sec
+        Start 250: header_src_include_migraphx_stream_model_hpp
+255/293 Test #250: header_src_include_migraphx_stream_model_hpp .....................   Passed    0.03 sec
+        Start 251: header_src_include_migraphx_streamutils_hpp
+256/293 Test #251: header_src_include_migraphx_streamutils_hpp ......................   Passed    0.03 sec
+        Start 252: header_src_include_migraphx_stringutils_hpp
+257/293 Test #252: header_src_include_migraphx_stringutils_hpp ......................   Passed    0.02 sec
+        Start 253: header_src_include_migraphx_support_metric_hpp
+258/293 Test #253: header_src_include_migraphx_support_metric_hpp ...................   Passed    0.03 sec
+        Start 254: header_src_include_migraphx_supported_segments_hpp
+259/293 Test #254: header_src_include_migraphx_supported_segments_hpp ...............   Passed    0.03 sec
+        Start 255: header_src_include_migraphx_target_hpp
+260/293 Test #255: header_src_include_migraphx_target_hpp ...........................   Passed    0.02 sec
+        Start 256: header_src_include_migraphx_target_assignments_hpp
+261/293 Test #256: header_src_include_migraphx_target_assignments_hpp ...............   Passed    0.02 sec
+        Start 257: header_src_include_migraphx_tensor_view_hpp
+262/293 Test #257: header_src_include_migraphx_tensor_view_hpp ......................   Passed    0.02 sec
+        Start 258: header_src_include_migraphx_tf_hpp
+263/293 Test #258: header_src_include_migraphx_tf_hpp ...............................   Passed    0.02 sec
+        Start 259: header_src_include_migraphx_time_hpp
+264/293 Test #259: header_src_include_migraphx_time_hpp .............................   Passed    0.03 sec
+        Start 260: header_src_include_migraphx_tmp_dir_hpp
+265/293 Test #260: header_src_include_migraphx_tmp_dir_hpp ..........................   Passed    0.03 sec
+        Start 261: header_src_include_migraphx_tracer_hpp
+266/293 Test #261: header_src_include_migraphx_tracer_hpp ...........................   Passed    0.02 sec
+        Start 262: header_src_include_migraphx_truncate_float_hpp
+267/293 Test #262: header_src_include_migraphx_truncate_float_hpp ...................   Passed    0.03 sec
+        Start 263: header_src_include_migraphx_tune_axis_hpp
+268/293 Test #263: header_src_include_migraphx_tune_axis_hpp ........................   Passed    0.02 sec
+        Start 264: header_src_include_migraphx_type_name_hpp
+269/293 Test #264: header_src_include_migraphx_type_name_hpp ........................   Passed    0.02 sec
+        Start 265: header_src_include_migraphx_type_traits_hpp
+270/293 Test #265: header_src_include_migraphx_type_traits_hpp ......................   Passed    0.02 sec
+        Start 266: header_src_include_migraphx_value_hpp
+271/293 Test #266: header_src_include_migraphx_value_hpp ............................   Passed    0.02 sec
+        Start 267: header_src_include_migraphx_verify_hpp
+272/293 Test #267: header_src_include_migraphx_verify_hpp ...........................   Passed    0.03 sec
+        Start 268: header_src_include_migraphx_verify_args_hpp
+273/293 Test #268: header_src_include_migraphx_verify_args_hpp ......................   Passed    0.02 sec
+        Start 269: header_src_targets_ref_include_migraphx_ref_context_hpp
+274/293 Test #269: header_src_targets_ref_include_migraphx_ref_context_hpp ..........   Passed    0.02 sec
+        Start 270: header_src_targets_ref_include_migraphx_ref_lowering_hpp
+275/293 Test #270: header_src_targets_ref_include_migraphx_ref_lowering_hpp .........   Passed    0.03 sec
+        Start 271: header_src_targets_ref_include_migraphx_ref_target_hpp
+276/293 Test #271: header_src_targets_ref_include_migraphx_ref_target_hpp ...........   Passed    0.03 sec
+        Start 272: test_onnx_test
+277/293 Test #272: test_onnx_test ...................................................   Passed    0.26 sec
+        Start 273: test_onnx_rnn_test
+278/293 Test #273: test_onnx_rnn_test ...............................................   Passed    0.06 sec
+        Start 274: test_verify_onnx
+279/293 Test #274: test_verify_onnx .................................................   Passed    0.73 sec
+        Start 275: test_tf
+280/293 Test #275: test_tf ..........................................................   Passed    0.07 sec
+        Start 276: test_api_array_base
+281/293 Test #276: test_api_array_base ..............................................   Passed    0.04 sec
+        Start 277: test_api_assign
+282/293 Test #277: test_api_assign ..................................................   Passed    0.04 sec
+        Start 278: test_api_compile_options
+283/293 Test #278: test_api_compile_options .........................................   Passed    0.03 sec
+        Start 279: test_api_lookup
+284/293 Test #279: test_api_lookup ..................................................   Passed    0.03 sec
+        Start 280: test_api_module_construct
+285/293 Test #280: test_api_module_construct ........................................   Passed    0.03 sec
+        Start 281: test_api_dynamic_shape
+286/293 Test #281: test_api_dynamic_shape ...........................................   Passed    0.02 sec
+        Start 282: test_api_ref
+287/293 Test #282: test_api_ref .....................................................   Passed    0.53 sec
+        Start 283: test_api_save_load
+288/293 Test #283: test_api_save_load ...............................................   Passed    0.04 sec
+        Start 284: test_api_op
+289/293 Test #284: test_api_op ......................................................   Passed    0.03 sec
+        Start 285: test_api_c_op
+290/293 Test #285: test_api_c_op ....................................................   Passed    0.03 sec
+        Start 286: test_api_custom_op
+291/293 Test #286: test_api_custom_op ...............................................   Passed    0.04 sec
+        Start 287: test_api_tf_parser
+292/293 Test #287: test_api_tf_parser ...............................................   Passed    0.02 sec
+        Start 293: test_ref
+293/293 Test #293: test_ref .........................................................   Passed    2.99 sec
+
+100% tests passed, 0 tests failed out of 293
+
+Total Test time (real) =  36.86 sec
+libmigraphx1-cpu-tests PASS
